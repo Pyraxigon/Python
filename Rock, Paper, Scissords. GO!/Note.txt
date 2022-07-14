@@ -1,0 +1,3 @@
+# Rock Paper Scissors GO!
+
+Make input of Rock, Paper, or, Scissors. And make the bot have a random input. and count the points
