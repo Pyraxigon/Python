@@ -61,16 +61,15 @@ while True:
         pass
 
     # History Clearer
-    if len(History) >= History_Length:
+    while len(History) >= History_Length:
         History.pop(0)
         pass
-
-
 
     # To Check if it needs float input or notat
     if 0 < Selection < 5:
         print("")
         Input_Value = float(input("Enter A Number: "))
+
 
     # 1 Addition
     if Selection == 1:
@@ -225,11 +224,13 @@ while True:
                 print(f"Back to Main")
                 break
 
+
     # 6 Clear
     if Selection == 6:
         Total = 0
         print(f"Your Total has been reset and now is {Total}")
         Eight_Counter = 0
+
 
     # 7 History Viewer
     if Selection == 7:
@@ -237,6 +238,7 @@ while True:
             print(i)
             Counter = Counter - 1
             Eight_Counter = 0
+
 
     # 8 Advanced Subsystem
     if Selection == 9:
@@ -423,6 +425,7 @@ while True:
                 print(List_of_Options)
                 break
 
+
     # 9 Nothing/error, + Meme
     if Selection == 8:
         Eight_Counter = Eight_Counter + 1
@@ -439,6 +442,7 @@ while True:
         if Eight_Counter == 6:
             print("I told you")
             break
+
 
     # 0 Settings
     if Selection == 0:
@@ -491,6 +495,7 @@ while True:
                 print(f"Back to Main")
                 print(List_of_Options)
                 break
+
 
     # >9 Else
     if Selection > 9:
