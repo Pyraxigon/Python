@@ -1,6 +1,3 @@
-
-
-Make
 Min = 0
 Top_Value = Top_Value
 Guess = random.randint(Min, Top_Value)
@@ -15,10 +12,71 @@ While Test:
         round(Min, 0)
         Top_Value = Top_Value
 
-    if Number 501
+    if Number = 501
         Guess = 762
         Min = Guess / 2
         Top_Value = Guess
 
+Not the EXACT code i used later, this was just my scribbeling and helping me clear my brain.
 
-Funny enough, i struggled for 2 hours while doing this (while watching netflix at same time) but as soon as i wrote it in a .txt file and not a .py i cracked it really fast. The text shown above is how i "cracked" my problem
+
+Funny enough, i struggled for 2 hours while doing this (while watching netflix at same time) but as soon as i wrote it
+in a .txt file and not a .py i cracked it really fast. The text shown above is how i "cracked" my problem
+
+THIS BELOW WAS MADE THE FOLLOWING DAY
+-------------------------------------
+
+i own a laptop + my main pc and wanted to compare the exact same code and compare time differences. And at the start i
+noticed that the laptop was faster in the first 4 tests up until it was at the 100_000, meaning that the number could be
+anywhere from 1 to 999_999. and there the results reversed. making my main pc faster than my laptop.
+And on the 1_000_000 result it showed the same, PC > Laptop.
+
+The data i got from 1000 irritations and these were the results.
+This was done in "Time for Number Python.py" it is essentially "Number Finder.py" but with the extra step of being able
+to do the time of 1000 (or any you want) times and then take the average.
+
+
+PC          lowest,  highest,    average, total time (of 1000 irritations).
+1           = 0.0 - 0.000501    0.000200    0.227
+10          = 0.0 - 0.002500    0.000191    0.225
+100         = 0.0 - 0.025604    0.000227    0.251
+1_000       = 0.0 - 0.194534    0.000382    0.444
+10_000      = 0.0 - 1.925834    0.002115    2.645
+100_000     = 0.0 - 19.081826   0.019278    31.985
+1_000_000   = 0.0 - 199.967362  0.199990    443.86
+
+
+Laptop      lowest,  highest,    average, total time (of 1000 irritations).
+1            = 0.0 - 0.000189   0.000181    0.203
+10           = 0.0 - 0.002000   0.000187    0.207
+100          = 0.0 - 0.018097   0.000189    0.215
+1_000        = 0.0 - 0.175278   0.000337    0.405
+10_000       = 0.0 - 1.784346   0.001941    2.438
+100_000      = 0.0 - 17.852230  0.018038    40.428
+1_000_000    = 0.0 - 184.848854 0.184876    500.044
+
+Some Specs of laptop and PC
+
+PC:
+CPU                 = Ryzen 5 3600
+CPU_Speed           = 3.6GHz
+CPU_Cores           = 6
+RAM_GB              = 16
+RAM_speed           = 3600MHz
+RAM_CL              = 26
+RAM_Manufacturer    = Kingston
+
+Laptop:
+CPU                 = Ryzen 7 Mobile 4800H
+CPU_Speed           = 4.2GHz
+CPU_Cores           = 8
+RAM_GB              = 16
+RAM_speed           = 3200MHz
+RAM_CL              = 20
+RAM_Manufacturer    = Samsung
+
+From this we can see that the laptop does each individual solve faster meanwhile the PC does the all the tasks repeated
+faster even though the average is lower on laptop. I will do a longer one with around 5000 irritations Later and give
+(5000 of the 1_000_000 one) the data for it in an update to this document.
+
+
