@@ -1,0 +1,24 @@
+
+
+Make
+Min = 0
+Top_Value = Top_Value
+Guess = random.randint(Min, Top_Value)
+
+
+Test = True:
+While Test:
+    Guess
+    if Number = 501
+        Guess = 325
+        Min = Guess / 2
+        round(Min, 0)
+        Top_Value = Top_Value
+
+    if Number 501
+        Guess = 762
+        Min = Guess / 2
+        Top_Value = Guess
+
+
+Funny enough, i struggled for 2 hours while doing this (while watching netflix at same time) but as soon as i wrote it in a .txt file and not a .py i cracked it really fast. The text shown above is how i "cracked" my problem
