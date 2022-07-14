@@ -1,0 +1,15 @@
+# Binary search
+
+Have a list with numbers written out, split it, make it search for match with input. once it finds it, it halves the
+'correct' half and searches the next new to halves and continues until it has isolated the exact number.
+
+This was kind of similar to my number finder but with less random in it and finding exact numbers. I would say that this
+is a MUCH faster way to do it however I liked the randomness of it.
+    It also couldn't really .append for a list and repeat it for X times. I tried it and it broke the code. I am sure
+    that there is a workaround for it however I got the main code working and could most likely copy the code I wrote
+    for the number finder and tweak it a bit for a solve. I may do it in the future.
+
+#Note I haven't watched a single video or guide through how to make it, only a video explaining what binary search is.
+    This goes for all my projects.
+
+
