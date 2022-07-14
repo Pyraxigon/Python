@@ -4,7 +4,7 @@
 import math
 
 
-List_of_Options = "Enter one of the following letters for its corresponding \n1 for Addition \n2 for Subtraction \n3 for Multiplication \n4 for Division\n5 for Parentheses \n6 for Resetting it \n7 to  view History \n9 for Advanced \n0 for Settings"
+List_of_Options = "Enter one of the following letters for its corresponding \n1 for Addition \n2 for Subtraction \n3 for Multiplication \n4 for Division\n5 for Parentheses \n6 to  Reset it \n7 to  view History \n9 for Advanced \n0 for Settings"
 
 List_of_Options_Brackets = "Enter one of the following letters for its corresponding \n1 I want to ADD this value to total \n2 I want to SUBTRACT this value from total \n3 I want to MULTIPLY this value from the total \n4 I want to DIVIDE this value from the total \n5 To finish Bracket Mode and Calculate \n6 I want to go back to start with the previous Total"
 
