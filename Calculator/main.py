@@ -156,7 +156,7 @@ while True:
             if Selection > 5:
                 print(f"\nYou tried selecting something that is outside of the range")
                 pass
-            if Selection < 4:
+            if Selection < 5:
                 Input_Value = float(input("Enter A Number: "))
 
             # Addition Brackets
