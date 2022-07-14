@@ -1,0 +1,50 @@
+# Want to do a 'short memory
+Total = Total + Value_One
+Value_One = Value_Two
+Value_Two = Input_Value
+
+
+ SCRAPPED, maybe later??
+# Can do a count for items in a list and then if user writes ( it keeps the other values still in there)
+
+
+
+
+# Make it so input is NOT float so if person enters EMPTY it just resets
+
+Make the show the stuff in 'sitting chair'??
+
+  10
++ 15
+------
+  25
+
+print(f"  {Total}\n
+- {Input_Value}"\n
++ len(Total + 3) * "-"
+\n  {Total + Input_Value}"
+
++   z
+(len(total) or len(input) + 2) * "-"
+
+print(f"  {Total}\n- {Input_Value} \n { + len(str(Total)) * '-' + ( 2 * '-')} \n  {Input_Value + Total}")
+
+(I wrote this in TxT mostly and i almost got it to work from there, lets fucking go)
+
+
+
+
+# Make input NON float so we dont get error code from entering Space
+
+# Make it so user can SELECT amount of Decimal places they want to recieve (Default = 3)
+
+# Make a Settings Selection for the user.
+
+# make a memory list, append.(list) then remove(0) and then input the new value at the front and make it printable.
+# now that i have possibility to use letters without crashing the program i can use some letters to make the inputs more. or use 0 as a "list printer"
+    # Now know how to do it, pop(0) (not remove lol) and .append(lisT) i can then make settings. ALSO need to figure out how to do + - / * in there to SHOW what happened.
+            # Can do MULTIPLE appends' just one for each outcome
+
+
+# Add a 'undo' to value 8 or something
+    # X.pop(-1)
