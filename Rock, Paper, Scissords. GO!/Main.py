@@ -1,5 +1,5 @@
 import random
-
+from time import sleep
 
 
 
@@ -50,13 +50,16 @@ while True:
     if User_Choice == 1:
         print(f"\nYou have Selected {R}")
         if Ai_Choice == 1:
+            sleep(1)
             print(f"Your Opponent Selected {R}")
             print(f"\nYou both Selected {R}\n")
         if Ai_Choice == 2:
+            sleep(1)
             print(f"Your Opponent Selected {P}")
             print("\nYou lost and your Opponent earned 1 point")
             AI_Points = AI_Points + 1
         if Ai_Choice == 3:
+            sleep(1)
             print(f"Your Opponent Selected {S}")
             print("\nYou won and earned 1 point for this")
             User_Points = User_Points + 1
@@ -65,13 +68,16 @@ while True:
     if User_Choice == 2:
         print(f"\nYou have Selected {P}")
         if Ai_Choice == 1:
+            sleep(1)
             print(f"Your Opponent Selected {R}")
             print("\nYou won and earned 1 point for this")
             User_Points = User_Points + 1
         if Ai_Choice == 2:
+            sleep(1)
             print(f"Your Opponent Selected {P}")
             print(f"\nYou both Selected {P}\n")
         if Ai_Choice == 3:
+            sleep(1)
             print(f"Your Opponent Selected {S}")
             print("\nYou lost and your Opponent earned 1 point")
             AI_Points = AI_Points + 1
@@ -80,21 +86,26 @@ while True:
     if User_Choice == 3:
         print(f"\nYou have Selected {S}")
         if Ai_Choice == 1:
+            sleep(1)
             print(f"Your Opponent Selected {R}")
             print("\nYou lost and your Opponent earned 1 point")
             AI_Points = AI_Points + 1
         if Ai_Choice == 2:
+            sleep(1)
             print(f"Your Opponent Selected {P}")
             print("\nYou won and earned 1 point for this")
             User_Points = User_Points + 1
         if Ai_Choice == 3:
+            sleep(1)
             print(f"Your Opponent Selected {S}")
             print(f"\nYou both Selected {S}\n")
 
+    # For AI to win
     if AI_Points > Best_of / 2:
         print(f"\nOpponent wins with {AI_Points} Points")
         break
 
+    # For User to win
     if User_Points > Best_of / 2:
         print(f"\nPlayer wins with {User_Points} Points")
         break
